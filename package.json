@@ -1,0 +1,32 @@
+{
+  "name": "simple-pokemon-scraper",
+  "version": "1.0.0",
+  "description": "Simple pokemon scraper",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "scripts": {
+    "test": "cd test && tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snowflake107/simple-pokemon-scraper"
+  },
+  "keywords": [
+    "pokemon",
+    "package",
+    "scraper",
+    "data"
+  ],
+  "author": "Snowflake107",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jsdom": "^16.2.10",
+    "@types/node": "*",
+    "@types/node-fetch": "^2.5.10",
+    "jsdom": "^16.5.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
